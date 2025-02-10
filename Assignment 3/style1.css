@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.otter-s {
+  background: black;
+  padding: 4rem 4rem;
+}
+
+.otter-h {
+  color: black;
+  font: bold 1.5rem "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: #ff1493;
+  width: 30%;
+  text-align: center;
+  padding: 1rem 1rem;
+  border: 2px solid #ff1493;
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+  left: 35%;
+  /* right: 50%; */
+  z-index: 2;
+}
+
+.otter-body {
+  font: bold 1rem "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: white;
+  border: 2px solid white;
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 4rem 1rem 2rem;
+  margin: 0 auto;
+}

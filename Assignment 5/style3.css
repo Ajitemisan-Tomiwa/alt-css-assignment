@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+.novus-section{
+    background: #9c9ec4;
+    height: auto;
+    padding: 5rem 3rem 5rem 3rem;
+    /* margin: 0 auto; */
+}  
+
+/* .new-improved{
+    position: absolute;
+    top: 6rem;
+    left: 25rem;
+    z-index: 2;
+} */
+
+.new-improved{
+    background: #ffefb1;
+    font-family: "Lato", serif;
+    font-weight: 800;
+    font-style: normal;
+    width: 15%;
+    text-align: center;
+    padding: .5rem 0rem;
+    border-radius: .5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    position: absolute;
+    top: 6rem;
+    left: 26rem;
+    z-index: 2;
+}
+
+
+.novus-writeup{
+    background: #f0eee6;
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.watch-container{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    /* border-radius: 1rem; */
+    /* height: 70vh; */
+}
+
+.novus-picture{
+    width: 100%;
+    /* border-radius: 1rem; */
+    /* height: 50vh; */
+}
+
+.series-iv{
+    /* font-family: "Lato", serif; */
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.novus-picture img{
+    width: 100%;
+    height: 50vh;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.novus-writeup{
+    padding: 2rem 2rem 4rem 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.novus-p1{
+    margin-bottom: 1rem;
+    font-family: "Lato", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.novus-p2{
+    font-family: "Lato", serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+    .new-improved{
+        background: #ffefb1;
+        font-family: "Lato", serif;
+        font-weight: 800;
+        font-style: normal;
+        width: 20%;
+        text-align: center;
+        padding: .5rem 0rem;
+        border-radius: .5rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        position: absolute;
+        top: 6rem;
+        left: 18rem;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 900px) {
+    .new-improved{
+        background: #ffefb1;
+        font-family: "Lato", serif;
+        font-weight: 800;
+        font-style: normal;
+        width: 30%;
+        text-align: center;
+        padding: .5rem 0rem;
+        border-radius: .5rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        position: absolute;
+        top: 6rem;
+        left: 14rem;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 700px) {
+    .new-improved{
+        background: #ffefb1;
+        font-family: "Lato", serif;
+        font-weight: 800;
+        font-style: normal;
+        width: 30%;
+        text-align: center;
+        padding: .5rem 0rem;
+        border-radius: .5rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        position: absolute;
+        top: 6rem;
+        left: 10rem;
+        z-index: 2;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .new-improved{
+        background: #ffefb1;
+        font-family: "Lato", serif;
+        font-weight: 800;
+        font-style: normal;
+        width: 30%;
+        text-align: center;
+        padding: .5rem 0rem;
+        border-radius: .5rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        position: absolute;
+        top: 6rem;
+        left: 8rem;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    .new-improved{
+        background: #ffefb1;
+        font-family: "Lato", serif;
+        font-weight: 800;
+        font-style: normal;
+        width: 40%;
+        text-align: center;
+        padding: .5rem 0rem;
+        border-radius: .5rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        position: absolute;
+        top: 6rem;
+        left: 5rem;
+        z-index: 2;
+    }
+}
